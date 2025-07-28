@@ -1,0 +1,390 @@
+/* general */
+.head, body {
+    overflow-x:hidden;
+    overflow-y: scroll;
+    background-image: linear-gradient(to right, #88bdbc, #254e58);    
+}
+.style_change_button {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    border-radius: 8px; 
+    width:130px;
+    height:30; 
+    border-color: #f0ece2;
+    background-color: #f0ece2; 
+    font-family: 'American Typewriter', serif;
+}
+.title_adjustment {
+    font-size: 70px; 
+    margin: 5px;
+}
+.slightly_bigger {
+    height: 113%;
+}
+
+/* landing page */
+.landing_title {
+    position: absolute;
+    font-family: 'American Typewriter', serif;
+    top: 250px;
+    left: 620px;
+    color: #add8e6;
+}
+.landing_description {
+    position: absolute;
+    font-family: 'American Typewriter', serif;
+    font-size: 25px;
+    top: 375px;
+    left: 620px;
+    color: #add8e6;
+}
+.line_landing {
+    position:relative;
+    background-color: #f0ece2;
+    border-radius: 8px;
+    border: 3px solid black;    
+    width: 2000px;
+    height: 80px;
+    top: -50px;
+    left: -50px;
+    z-index: -1;
+}
+.landing_box {
+    position:absolute;    
+    left: 10px;
+    top: -10px;
+}
+.landing_socials {
+    position:absolute;
+    font-family: 'American Typewriter', serif;
+    left: 620px;
+    top: 700px;
+    color: #88bdbc;
+    padding-bottom: 50px;
+}
+.landing_about {
+    position:absolute;
+    font-family: 'American Typewriter', serif;
+    font-size: 20px;
+    top: 420px;
+    left: 620px;
+    width: 700px;
+    padding: 15px;
+    color: #add8e6;
+    border: 3px solid black;
+    background-color: #054544;
+}
+.image {
+    position:absolute;
+    top: 160px;
+    left: 140px;
+    height: 520px;
+    width:fit-content;
+    border: 3px solid black;   
+}
+.big_box {
+    top: 200px;
+    height: 222px;
+    border: 3px solid black;   
+    border-radius: 100px;
+    background-color: #054544;
+}
+@keyframes glow {
+    0% {
+        text-shadow: 0px 0px 15px #426bff;
+    }
+    100% {
+        text-shadow: 0px 0px 40px #151a7b;
+    }
+}
+.glowing_text {
+    color: #ffffff;
+    animation: glow 1s infinite alternate;
+}
+
+/* navbar and links */
+.navbar ul {
+    overflow: hidden;
+    list-style-type: none;
+    background-color: #f0ece2;    
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+}
+.navbar a{
+    text-decoration: none;
+    display: block;
+    padding-left: 15px;
+    padding-right: 15px;    
+}
+.navbar li {
+    float: left;
+}
+.navbar a:hover {
+    background-color: #ffffff;  
+}
+.link {
+    color: navy;
+}
+.resume_format {
+    position:absolute; 
+    font-size: 25px;    
+    right: 425px; 
+    top: 660px; 
+    font-family: 'American Typewriter', serif;
+}
+
+/* pos (position) for technical projects, qualifications, and service section */
+.pos_title {
+    position: relative;
+    height: fit-content;
+    text-align: center;
+    font-family: 'American Typewriter', serif;
+    background-color: #054544;
+    color: #add8e6;
+    border: 3px solid black;    
+    font-size: 70px; 
+    padding: 5px;
+    width: 1500px;    
+    left: -50px;
+    top: 100px;    
+}
+.pos_landing {
+    position:relative;
+    background-color: #f0ece2;
+    border-radius: 8px;
+    border: 3px solid black;    
+    width: 2000px;
+    height: 125px;
+    top: -170px;
+    left: -50px;
+    z-index: -1;
+}
+.pos_box {
+    position:absolute;
+    left: 0px;
+    top: -10px;
+}
+.pos_about1 {
+    position: absolute;
+    height: fit-content;
+    font-family: 'American Typewriter', serif;
+    background-color: #054544;
+    border: 3px solid black; 
+    border-radius: 10px;
+    color: #add8e6;               
+    padding: 15px;
+    width: 1300px;     
+    left: 50px;
+    top: 260px; 
+}
+.pos_about2 {
+    position: absolute;
+    height: fit-content;
+    font-family: 'American Typewriter', serif;
+    background-color: #054544;
+    border: 3px solid black; 
+    border-radius: 10px;
+    color: #add8e6;               
+    padding: 15px;
+    width: 1300px;        
+    left: 50px;
+    top: 500px; 
+}
+.pos_about_notes {
+    position:absolute;
+    font-family: 'American Typewriter', serif;
+    font-size: 17px;
+    width: 1120px;
+    color: #add8e6;
+}
+.logo_image {
+    position:absolute;
+    top: 570px;    
+    height: 100px;
+    width: 100px;
+    border: 3px solid black; 
+}
+.resume {
+    position:absolute;
+    left: -5px;
+    top: 390px;
+    width: 700px;
+    height: 700px;
+    padding-bottom: 30px;
+}
+
+/* technical projects page bullet points and image/logos formatting */
+.tech_point1 {
+    right: 55px;
+    top: 349px;
+    background-color: #054544;
+    border: 3px solid black; 
+    border-radius: 10px;
+}
+.tech_point2 {
+    right: 55px;
+    top: 589px;
+    background-color: #054544;
+    border: 3px solid black; 
+    border-radius: 10px; 
+}
+.tech_point3 {
+    right: 55px;
+    top: 665px;
+    background-color: #054544;
+    border: 3px solid black; 
+    border-radius: 10px;  
+}
+.tech_point4 {
+    right: 55px;
+    top: 741px;
+    background-color: #054544;
+    border: 3px solid black; 
+    border-radius: 10px;    
+}
+.logo1 {
+    left: 127px;
+    top: 349px;    
+    height: 114px;
+    width: fit-content;
+    border-radius: 10px;
+}
+.logo2 {
+    left: 170px;
+    top: 589px;
+    height: 70px;
+    width: fit-content;
+    border-radius: 10px;
+}
+.logo3 {
+    left: 170px;
+    top: 664px;
+    height: 70px;
+    width: fit-content;
+    border-radius: 10px;
+}
+
+/* service page bullet points and image/logos formatting*/
+.serv1 {
+    right: 55px;
+    top: 330px;
+    background-color: #054544;
+    border: 3px solid black; 
+    border-radius: 10px;
+}
+.serv2 {
+    right: 55px;
+    top: 570px;
+    background-color: #054544;
+    border: 3px solid black; 
+    border-radius: 10px; 
+}
+.logo4 {
+    left: 110px;
+    top: 570px;
+    height: 120px;
+    width: fit-content;
+    border-radius: 10px;
+}
+.image2 {
+    position:absolute;
+    left: 110px;
+    top: 330px; 
+    height: 150px;
+    width: fit-content;
+    border: 3px solid black;   
+    border-radius: 10px;
+}
+
+/* ai page */
+#ai_body {
+    background-color: #ffefd5;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    color: #2c3e50;
+    padding: 20px;
+}
+.ai_header {
+    background-color: #ff69b4;
+    padding: 20px;
+    text-align: center;
+    border: 5px solid #ffd700;
+}
+.ai_title {
+    color: #fff;
+    font-size: 36px;
+    text-shadow: 2px 2px #000;
+}
+.ai_main_container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.ai_content {
+    width: 65%;
+    background-color: #7fffd4;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+.ai_subtitle {
+    font-size: 28px;
+    color: #1e90ff;
+    text-transform: uppercase;
+}
+.ai_subsubtitle {
+    font-size: 22px;
+    color: #ff6347;
+    margin-top: 15px;
+}
+.ai_list {
+    list-style-type: square;
+    padding-left: 20px;
+}
+.ai_sidebar {
+    width: 30%;
+}
+.ai_prompt_section {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #ffb6c1;
+    border: 3px solid #dc143c;
+    border-radius: 15px;
+}
+.ai_prompt_title {
+    font-size: 26px;
+    color: #800080;
+    text-align: center;
+    text-shadow: 1px 1px 3px #fff;
+}
+.ai_prompt_box {
+    background-color: #f5fffa;
+    padding: 15px;
+    border: 3px dotted #ff4500;
+    border-radius: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #2f4f4f;
+    max-width: 100%;
+    word-wrap: break-word; /* Ensures long words break and stay inside the box */
+    word-break: break-word; /* Ensures words that are too long break onto the next line */
+    overflow-wrap: break-word; /* Handles any overflows */
+    box-sizing: border-box; /* Ensures padding is included in the total width */
+}
+.ai_footer {
+    margin-top: 20px;
+    background-color: #ffdead;
+    padding: 10px;
+    text-align: center;
+    border: 3px dotted #8a2be2;
+    border-radius: 10px;
+}
+.ai_footer a {
+    color: #8b008b;
+    font-size: 18px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+.ai_footer a:hover {
+    color: #4b0082;
+    text-decoration: underline;
+}

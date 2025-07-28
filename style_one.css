@@ -1,0 +1,297 @@
+/* general */
+.head, body {
+    overflow-x: hidden;
+    background-color:burlywood;
+}
+.style_change_button {
+    position: absolute;
+    right: 5px;
+    top: 5px;
+    border-radius: 5px; 
+    background-color: blanchedalmond; 
+    font-family:"'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif";
+}
+.title_adjustment {
+    font-size: 70px; 
+    margin: 5px;
+}
+
+/* landing page */
+.landing_title {
+    position: relative;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    top: 50px;
+    left: 120px;
+}
+.landing_description {
+    position: absolute;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    top: 200px;
+    left: 405px;
+}
+.line_landing {
+    position:relative;
+    border-top: 3px solid black;    
+    top: 80px;
+}
+.landing_box {
+    position:absolute;
+    left: 120px;
+    top: 160px;
+}
+.landing_socials {
+    position:absolute;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    left: 120px;
+    top: 700px;
+}
+.landing_about {
+    position:absolute;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    top: 270px;
+    left: 405px;
+    width: 500px;
+}
+.image {
+    position:absolute;
+    top: 95px;
+    right: 90px;
+    height: 520px;
+    width:fit-content;
+    border: 3px solid black;   
+}
+
+
+/* navbar and links */
+.navbar ul {
+    list-style-type: none;
+    background-color: blanchedalmond;
+    padding: 30px;
+    border: 3px solid black;    
+    width: 200px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;    
+}
+.navbar a{
+    text-decoration: none;
+    display: block;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.resume_format {
+    font-size: 25px;
+    position:absolute; 
+    right: 140px; top:660px; 
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+/* pos (position ) for technical projects, qualifications, and service section */
+.pos_title {
+    position: relative;
+    height: fit-content;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #ffebcd;
+    border: 3px solid black;    
+    font-size: 70px; 
+    padding: 20px;
+    left: 300px;
+    top: 40px;
+}
+.pos_landing {
+    position:relative;
+    border-top: 3px solid black;    
+    top: 0px;
+    z-index: -1;
+}
+.pos_box {
+    position:absolute;
+    right: 90px;
+    top: 190px;
+}
+.pos_about1 {
+    position:absolute;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 17px;
+    left: 120px;
+    top: 240px;
+    width: 430px;
+}
+.pos_about2 {
+    position:absolute;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 17px;
+    left: 610px;
+    top: 240px;
+    width: 430px;
+}
+.pos_about_notes {
+    position:absolute;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 17px;
+    width: 430px;
+}
+.logo_image {
+    position:absolute;
+    top: 570px;    
+    height: 100px;
+    width: 100px;
+    border: 3px solid black; 
+}
+.resume {
+    position:absolute;
+    left: 450px;
+    top: -20px;
+    width: 115%;
+    height: 500px;
+}
+
+/* technical projects page bullet points and logos formatting */
+.tech_point1 {
+    left: 120px;
+    top: 415px;
+}
+.tech_point2 {
+    left: 610px;
+    top: 395px;
+    width: 430px;   
+}
+.tech_point3 {
+    left: 610px;
+    top: 480px;
+    width: 430px;   
+}
+.tech_point4 {
+    left: 610px;
+    top: 585px;
+    width: 430px;   
+}
+.logo1 {
+    left: 150px;
+    top: 615px;
+}
+.logo2 {
+    left: 290px;
+    top: 615px;
+}
+.logo3 {
+    left: 430px;
+    top: 615px;
+}
+
+/* service page bullet points and image/logos formatting*/
+.serv1 {
+    left: 120px;
+    top: 335px;
+}
+.serv2 {
+    left: 610px;
+    top: 330px;
+}
+.logo4 {
+    right: 730px;
+    top: 580px;
+}
+.image2 {
+    position:absolute;
+    left: 450px;
+    top: 560px;
+    height: 150px;
+    width: fit-content;
+    border: 3px solid black;   
+}
+
+
+
+/* ai page */
+#ai_body {
+    background-color: #ffefd5;
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    color: #2c3e50;
+    padding: 20px;
+}
+.ai_header {
+    background-color: #ff69b4;
+    padding: 20px;
+    text-align: center;
+    border: 5px solid #ffd700;
+}
+.ai_title {
+    color: #fff;
+    font-size: 36px;
+    text-shadow: 2px 2px #000;
+}
+.ai_main_container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+.ai_content {
+    width: 65%;
+    background-color: #7fffd4;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+}
+.ai_subtitle {
+    font-size: 28px;
+    color: #1e90ff;
+    text-transform: uppercase;
+}
+.ai_subsubtitle {
+    font-size: 22px;
+    color: #ff6347;
+    margin-top: 15px;
+}
+.ai_list {
+    list-style-type: square;
+    padding-left: 20px;
+}
+.ai_sidebar {
+    width: 30%;
+}
+.ai_prompt_section {
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #ffb6c1;
+    border: 3px solid #dc143c;
+    border-radius: 15px;
+}
+.ai_prompt_title {
+    font-size: 26px;
+    color: #800080;
+    text-align: center;
+    text-shadow: 1px 1px 3px #fff;
+}
+.ai_prompt_box {
+    background-color: #f5fffa;
+    padding: 15px;
+    border: 3px dotted #ff4500;
+    border-radius: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #2f4f4f;
+    max-width: 100%;
+    word-wrap: break-word; /* Ensures long words break and stay inside the box */
+    word-break: break-word; /* Ensures words that are too long break onto the next line */
+    overflow-wrap: break-word; /* Handles any overflows */
+    box-sizing: border-box; /* Ensures padding is included in the total width */
+}
+.ai_footer {
+    margin-top: 20px;
+    background-color: #ffdead;
+    padding: 10px;
+    text-align: center;
+    border: 3px dotted #8a2be2;
+    border-radius: 10px;
+}
+.ai_footer a {
+    color: #8b008b;
+    font-size: 18px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+.ai_footer a:hover {
+    color: #4b0082;
+    text-decoration: underline;
+}
